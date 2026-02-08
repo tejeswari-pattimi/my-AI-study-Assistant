@@ -1,0 +1,36 @@
+
+body { 
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+    font-family: 'Segoe UI', sans-serif; 
+}
+
+.gradio-container { 
+    background-color: #1e293b !important; 
+    color: white !important; 
+    border-radius: 20px !important; 
+    max-width: 850px !important; 
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+textarea {
+    background-color: #111827 !important;
+    color: #ffffff !important;
+    border: 1px solid #374151 !important;
+    border-radius: 10px !important;
+}
+button.primary {
+    background: linear-gradient(45deg, #6366f1, #a855f7) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 10px !important;
+    transition: transform 0.2s;
+}
+
+button.primary:hover {
+    transform: scale(1.02);
+}
+
+footer { display: none !important; }
