@@ -27,7 +27,7 @@ def study_assistant(question, persona_name):
 # We tell Gradio to look for the 'style.css' file we created
 with gr.Blocks(css="style.css", theme=gr.themes.Soft()) as demo:
     gr.Markdown("# 📚 AI Study Assistant")
-  with gr.Column():
+    with gr.Column():
         question_input = gr.Textbox(lines=4, label="Your Question")
         persona_dropdown = gr.Radio(choices=list(personalities.keys()), value="Friendly 😊", label="Assistant Personality")
         submit_btn = gr.Button("Get Expert Answer 🚀", variant="primary")
